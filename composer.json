@@ -1,0 +1,18 @@
+{
+    "name": "strikewood/ran-php-client",
+    "description": "Laravel package to use Ran php client API using guzzle",
+    "type": "laravel-package",
+    "authors": [
+        {
+            "name": "Philippe Dion",
+            "email": "philippe@strikewood.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": { "Ran\\Client\\" : "src/" }
+    }
+}
